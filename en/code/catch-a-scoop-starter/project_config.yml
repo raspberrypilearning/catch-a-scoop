@@ -1,0 +1,5 @@
+name: "Catch a scoop"
+identifier: "catch-a-scoop-starter"
+type: 'html'
+build: true
+
