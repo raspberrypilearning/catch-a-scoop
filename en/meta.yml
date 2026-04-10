@@ -5,10 +5,18 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Step 1
     completion:
-      - engaged      
-  - title: Challenge
+      - engaged
+  - title: Step 2
+  - title: Step 3
+  - title: Step 4
+  - title: Step 5
+  - title: Step 6
+  - title: Step 7
+  - title: Step 8
+  - title: Step 9
+  - title: Step 10
     challenge: true
     completion:
       - external

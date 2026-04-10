@@ -4,7 +4,7 @@ let scoops = 0;
 let maxScoops = 10;
 
 function preload() {
-  cone = loadImage("cone.png");
+  cone = loadImage("cone1.png");
   scoop = loadImage("scoop1.png");
 }
 
