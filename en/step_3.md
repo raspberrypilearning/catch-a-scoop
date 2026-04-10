@@ -1,6 +1,8 @@
-## Challenge
+make the scoop fall down
 
---- task ---
+  fallrate -= 5;
+  scoopY = 0 - fallrate;
 
-
---- /task ---
+  if (scoops < maxScoops) {
+    image(scoop, scoopX, scoopY, 150, 150);
+  }

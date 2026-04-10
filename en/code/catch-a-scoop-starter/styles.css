@@ -1,34 +1,3 @@
-html,
 body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: #74b9ff;
   font-family: Georgia, serif;
-}
-
-canvas {
-  display: block;
-}
-
-.page {
-  position: relative;
-}
-
-.ui {
-  position: fixed;
-  top: 16px;
-  left: 16px;
-  z-index: 10;
-  color: #10214a;
-}
-
-.ui h1,
-.ui p {
-  margin: 0;
-}
-
-.ui p {
-  margin-top: 4px;
-  font-size: 14px;
 }
