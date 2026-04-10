@@ -1,10 +1,9 @@
-title: Project title in sentence case
+title: Catch a scoop
 hero_image: images/banner.png
 description: A short description of the project
 listed: false
 pdf: false
 steps:
-  - title: What you will make
   - title: Step 1
     completion:
       - engaged
