@@ -2,7 +2,7 @@
 Choose the maximum number of scoops your player can catch.
 
 ## Step 1
-Add `maxScoops` near the top of your code. This will be the maximum number of ice-cream scoops to collect. Set it to `3`,  or choose your own number.
+Add `maxScoops`, a maximum number of ice-cream scoops to collect.
 
 <div class="c-project-code">
 --- code ---
@@ -29,8 +29,8 @@ Use `if (scoops < maxScoops)` to only make new scoops appear if the number of st
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 25
-line_highlights: 30-33
+line_number_start: 36
+line_highlights: 30-32
 ---
   fallrate -= 5;
   scoopY = 0 - fallrate;

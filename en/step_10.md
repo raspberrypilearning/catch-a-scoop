@@ -10,8 +10,8 @@ Check if the number of scoops is more than or equal to `maxScoops` and use `text
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 1
-line_highlights: 46, 47, 48
+line_number_start: 45
+line_highlights: 49-51
 ---
   for (let i = 0; i < scoops; i++) {
     image(scoop, mouseX, 600 - (i * 60), 150, 150);

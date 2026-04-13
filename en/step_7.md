@@ -20,10 +20,16 @@ let scoops = 0;
 </div>
 
 ## Step 2
-When a scoop touches the cone, `scoops++` adds `1` to the number stored in `scoops`.
+When a scoop touches the cone, add `scoops++` inside the `if` statement. This adds `1` to the number stored in `scoops`.
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
 
 - A `for` loop is useful when you want to repeat the same drawing code several times.
 - `600 - (i * 60)` moves each scoop higher up the stack.
+
+</div>
 
 <div class="c-project-code">
 --- code ---
@@ -31,8 +37,8 @@ When a scoop touches the cone, `scoops++` adds `1` to the number stored in `scoo
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 40
-line_highlights: 44
+line_number_start: 35
+line_highlights: 38, 41-43
 ---
   if (dist(scoopX, scoopY, mouseX, 600) < 80) {
     fallrate = 0;
@@ -48,7 +54,7 @@ line_highlights: 44
 </div>  
 
 ### Now run your code
-Each scoop you catch should stay on the cone and build into a stack.
+Each scoop you catch on the cone should build into a stack.
 
 <div class="c-project-output">
 
