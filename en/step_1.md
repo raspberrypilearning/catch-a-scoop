@@ -56,17 +56,8 @@ function draw() {
 ### Now run your code 
 You can see cone move with your curser. 
 
-
 <div class="c-project-output">
+
 ![ADD](images/step1.gif)
+
 </div>
-
-
-
-
-
-
-
-
-
-

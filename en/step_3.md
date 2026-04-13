@@ -4,7 +4,6 @@ Create `scoopX` and use `random()` to choose where the scoop appears across the 
 ## Step 1
 Add `scoopX` near the top of your code.
 
-
 <div class="c-project-code">
 --- code ---
 ---
@@ -77,4 +76,10 @@ function draw() {
 </div>
 
 ### Now run your code
-ADD
+Start and stop the code. The scoop of ice-cream should appear in a different position every time you start again.
+
+<div class="c-project-output">
+
+![ADD](images/step3.gif)
+
+</div>

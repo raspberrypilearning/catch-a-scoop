@@ -1,5 +1,4 @@
 ## Add a scoop
-Choose an ice-cream scoop image.
 
 ## Step 1
 Choose the ice-cream scoop image you want and add it to the code.
@@ -49,3 +48,8 @@ function draw() {
 ### Now run your code
 You should see one scoop appear near the top of the screen.
 
+<div class="c-project-output">
+
+![ADD](images/step2.gif)
+
+</div>

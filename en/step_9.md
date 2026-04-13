@@ -1,30 +1,8 @@
-
-add a final message
-
- if (scoops >= maxScoops) {
-    text("Yum!", mouseX, 500);
-  }
-
-## Show a final message
-When the player has caught all the scoops, display a message above the cone.
+## Limit the stack
+Choose the maximum number of scoops your player can catch.
 
 ## Step 1
-Check if the number of scoops is greater than or equal to `maxScoops`.
-
-## Step 2
-Use `text()` to display a message such as `"Yum!"`.
-
-## Step 3
-Choose where the message should appear on the screen.
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-- `>=` means greater than or equal to.
-- You can change `"Yum!"` to your own message.
-
-</div>
+Add `maxScoops` near the top of your code. This will be the maximum number of ice-cream scoops to collect. Set it to `3`,  or choose your own number.
 
 <div class="c-project-code">
 --- code ---
@@ -33,36 +11,27 @@ language: javascript
 filename: scripts.js
 line_numbers: true
 line_number_start: 1
-line_highlights: 46, 47, 48
+line_highlights: 4
 ---
-
 let scoopX, scoopY, cone, scoop;
 let fallrate = 0;
 let scoops = 0;
 let maxScoops = 3;
+--- /code ---
+</div>
 
-function preload() {
-  cone = loadImage("cone1.png");
-  scoop = loadImage("scoop1.png");
-}
+## Step 2
+Use `if (scoops < maxScoops)` to only make new scoops appear if the number of stacked scoops is less than your maximum.
 
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-
-  imageMode(CENTER);
-
-  textAlign(CENTER);
-  textSize(64);
-  fill(255, 0, 255);
-
-  scoopX = random(0, width);
-}
-
-function draw() {
-  background(26, 100, 255);
-
-  image(cone, mouseX, 750);
-
+<div class="c-project-code">
+--- code ---
+---
+language: javascript
+filename: scripts.js
+line_numbers: true
+line_number_start: 1
+line_highlights: 4, 29, 36
+---
   fallrate -= 5;
   scoopY = 0 - fallrate;
 
@@ -74,25 +43,14 @@ function draw() {
     fallrate = 0;
     scoopX = random(0, width);
   }
-
-  if (scoops < maxScoops && dist(scoopX, scoopY, mouseX, 600 - (scoops * 60)) < 80) {
-    fallrate = 0;
-    scoopX = random(0, width);
-    scoops++;
-  }
-
-  for (let i = 0; i < scoops; i++) {
-    image(scoop, mouseX, 600 - (i * 60), 150, 150);
-  }
-
-  if (scoops >= maxScoops) {
-    text("Yum!", mouseX, 500);
-  }
-}
-
 --- /code ---
-
 </div>
 
 ### Now run your code
-When the cone is full, your message should appear on the screen.
+The game should stop adding new scoops when the stack reaches your chosen limit. Experiment with different scoop stack limits.
+
+<div class="c-project-output">
+
+![ADD](images/step8.gif)
+
+</div> 

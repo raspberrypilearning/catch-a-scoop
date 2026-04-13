@@ -1,28 +1,8 @@
-challnege - change the falvero of icecreatm wuth each scoop
+## Show a final message
+When the player has caught all the scoops, display a message.
 
-
-tip - load images ad an array in a loop
-
-ramdimise the array when drwaing the image
-
-## Challenge: use different flavours
-Can you make each scoop in the stack a different flavour?
-
-## Ideas to try
-
-- Load several scoop images into an array.
-- Choose a random scoop image each time a new scoop is caught.
-- Store the chosen scoop images in an array so the stack keeps the flavours you picked.
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-- Arrays are useful when you want to keep a list of images.
-- You could use a loop in `preload()` to load files such as `scoop1.png`, `scoop2.png`, and `scoop3.png`.
-- `random()` can help you choose a different flavour each time.
-
-</div>
+## Step 1
+Check if the number of scoops is more than or equal to `maxScoops` and use `text()` to display a message such as `"Yum!"`.
 
 <div class="c-project-code">
 --- code ---
@@ -31,23 +11,24 @@ language: javascript
 filename: scripts.js
 line_numbers: true
 line_number_start: 1
+line_highlights: 46, 47, 48
 ---
+  for (let i = 0; i < scoops; i++) {
+    image(scoop, mouseX, 600 - (i * 60), 150, 150);
+  }
 
-let scoopImages = [];
-let stack = [];
-
-function preload() {
-  for (let i = 1; i <= 3; i++) {
-    scoopImages.push(loadImage("scoop" + i + ".png"));
+  if (scoops >= maxScoops) {
+    text("Yum!", mouseX, 500);
   }
 }
-
-// When a scoop is caught, choose a random flavour and add it to stack.
-// Then draw each image from stack instead of always drawing the same scoop.
-
 --- /code ---
-
 </div>
 
-### Challenge yourself
-Try using more scoop images and make every cone look different.
+### Now run your code
+When the cone is full, your message should appear on the screen. You can change `"Yum!"` to your own message.
+
+<div class="c-project-output">
+
+![ADD](images/step9.gif)
+
+</div>

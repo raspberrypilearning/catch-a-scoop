@@ -6,7 +6,6 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   imageMode(CENTER);
-
   textAlign(CENTER);
   textSize(64);
   fill(255, 0, 255);
