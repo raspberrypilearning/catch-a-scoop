@@ -2,7 +2,7 @@
 Move the scoops down the screen.
 
 ## Step 1
-Add a `scoopY` and `fallrate`.
+Add a `fallrate` and set it to 0.
 
 <div class="c-project-code">
 --- code ---
@@ -11,12 +11,10 @@ language: javascript
 filename: scripts.js
 line_numbers: true
 line_number_start: 1
-line_highlights: 1, 3, 26, 27, 30
+line_highlights: 2
 ---
 let scoopX, scoopY, cone, scoop;
 let fallrate = 0;
-
-function preload() {
 --- /code ---
 
 </div>
@@ -25,7 +23,7 @@ function preload() {
 
 ### Tip
 
-The `draw()` function runs again and again, so if a value changes every frame, the image will appear to move.
+The `draw()` function runs again and again, so if a value changes, the image will appear to move.
 
 </div>
 
@@ -38,8 +36,8 @@ In `draw()`, change the `fallrate`, and set `scoopY` to change with this.
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 22
-line_highlights: 26-27
+line_number_start: 20
+line_highlights: 23-24, 27
 ---
 function draw() {
   background(26, 100, 255);
@@ -51,9 +49,7 @@ function draw() {
 
   image(scoop, scoopX, scoopY, 150, 150);
 }
-
 --- /code ---
-
 </div>
 
 ### Now run your code

@@ -1,7 +1,7 @@
 ## Add a scoop
 
 ## Step 1
-Choose the ice-cream scoop image you want and add it to the code.
+Choose the ice-cream `scoop` image you want and add it to the code.
 
 <div class="c-project-code">
 --- code ---
@@ -10,10 +10,8 @@ language: javascript
 filename: scripts.js
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-2, 6
+line_highlights: 5
 ---
-let cone, scoop;
-
 function preload() {
   cone = loadImage("cone1.png");
   scoop = loadImage("scoop1.png");
@@ -31,14 +29,15 @@ Draw the scoop in `draw()` using your random x position.
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 21
-line_highlights: 25
+line_number_start: 17
+line_highlights: 22
 ---
 function draw() {
   background(26, 100, 255);
 
   image(cone, mouseX, 750);
-  image(scoop, scoopX, 150, 150, 150);
+
+  image(scoop, 150, 150, 50, 50);
 }
 
 --- /code ---

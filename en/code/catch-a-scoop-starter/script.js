@@ -1,3 +1,5 @@
+let scoopX, scoopY, cone, scoop;
+
 function preload() {
 
 }

@@ -29,8 +29,8 @@ Use `if (scoops < maxScoops)` to only make new scoops appear if the number of st
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 1
-line_highlights: 4, 29, 36
+line_number_start: 25
+line_highlights: 30-33
 ---
   fallrate -= 5;
   scoopY = 0 - fallrate;

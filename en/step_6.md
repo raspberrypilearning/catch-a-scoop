@@ -4,8 +4,6 @@ Check when the falling scoop touches the cone, then reset it so another scoop ca
 ## Step 1
 Use `dist()` to measure the distance between the falling scoop and the top of the cone. 
 
-
-
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
@@ -14,8 +12,7 @@ Use `dist()` to measure the distance between the falling scoop and the top of th
 
 </div>
 
-If the distance is less than 80, then change the `fallrate` and make a new random `scoopX` position so the next scoop falls somewhere different.
-
+If the distance is less than 80, then change the `fallrate` and make a new random `scoopX` position.
 
 <div class="c-project-code">
 --- code ---
