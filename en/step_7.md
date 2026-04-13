@@ -37,9 +37,16 @@ When a scoop touches the cone, add `scoops++` inside the `if` statement. This ad
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 35
+line_number_start: 29
 line_highlights: 39, 42-44
 ---
+  image(scoop, scoopX, scoopY, 150, 150);
+  
+  if (scoopY > height) {
+    fallrate = 0;
+    scoopX = random(0, width);
+  }
+
   if (dist(scoopX, scoopY, mouseX, 600) < 80) {
     fallrate = 0;
     scoopX = random(0, width);
