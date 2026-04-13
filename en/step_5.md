@@ -1,8 +1,8 @@
-## Start again at the top
+## Start scoops again
 When the scoop reaches the bottom of the screen, send it back to the top in a new random place.
 
 ## Step 1
-If `scoopY` is more than the height of the screen, set the `fallrate' to 0 so the scoop starts falling again from the top.
+If `scoopY` is more than the height of the screen, set the `fallrate` to 0 so the scoop starts falling again from the top.
 
 Also, choose a new random x position for the next falling scoop.
 
@@ -13,7 +13,7 @@ language: javascript
 filename: scripts.js
 line_numbers: true
 line_number_start: 25
-line_highlights: 30-333
+line_highlights: 30-33
 ---
   fallrate -= 5;
   scoopY = 0 - fallrate;

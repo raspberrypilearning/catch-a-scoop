@@ -9,8 +9,8 @@ Change the `dist()` check so the catch point moves up as the stack gets taller.
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 36
-line_highlights: 36
+line_number_start: 37
+line_highlights: 37
 ---
   if (dist(scoopX, scoopY, mouseX, 600 - (scoops * 60)) < 80) {
     fallrate = 0;

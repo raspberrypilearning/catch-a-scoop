@@ -20,8 +20,8 @@ If the distance is less than 80, then change the `fallrate` and make a new rando
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 39
-line_highlights: 40-49
+line_number_start: 28
+line_highlights: 35-38
 ---
   if (scoopY > height) {
     fallrate = 0;

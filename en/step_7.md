@@ -38,7 +38,7 @@ language: javascript
 filename: scripts.js
 line_numbers: true
 line_number_start: 35
-line_highlights: 38, 41-43
+line_highlights: 39, 42-44
 ---
   if (dist(scoopX, scoopY, mouseX, 600) < 80) {
     fallrate = 0;

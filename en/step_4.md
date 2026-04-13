@@ -36,12 +36,9 @@ In `draw()`, change the `fallrate`, and set `scoopY` to change with this.
 language: javascript
 filename: scripts.js
 line_numbers: true
-line_number_start: 20
-line_highlights: 23-24, 27
+line_number_start: 23
+line_highlights: 25-26, 28
 ---
-function draw() {
-  background(26, 100, 255);
-
   image(cone, mouseX, 750);
 
   fallrate -= 5;
