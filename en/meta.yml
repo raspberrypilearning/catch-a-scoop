@@ -16,6 +16,9 @@ steps:
   - title: Step 8
   - title: Step 9
   - title: Step 10
+    completion:
+      - internal
+  - title: Step 11
     challenge: true
     completion:
       - external
