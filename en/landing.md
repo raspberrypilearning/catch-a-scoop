@@ -1,6 +1,6 @@
 ## What you will make
 
-ADD TEXT
+Make a micro-game where you catch falling scoops of ice cream in a cone and stack them up.
 
 Click on **Run** in the Code Editor below to try it out.
 
