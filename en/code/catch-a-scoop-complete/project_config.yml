@@ -1,4 +1,4 @@
-name: "Catch a scoop completed"
-identifier: "catch-a-scoop-complete"
+name: "Catch a thing completed"
+identifier: "catch-a-thing-complete"
 type: 'html'
 build: true
