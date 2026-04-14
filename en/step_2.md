@@ -14,7 +14,7 @@ line_highlights: 5
 ---
 function preload() {
   cone = loadImage("cone1.png");
-  scoop = loadImage("scoop1.png");
+  scoop = loadImage("scoop1.png"); // load the scoop image
 }
 --- /code ---
 
@@ -34,7 +34,7 @@ line_highlights: 24
 ---
   image(cone, mouseX, 750);
 
-  image(scoop, 150, 150, 50, 50);
+  image(scoop, 150, 150, 50, 50); // draw one scoop near the top
 }
 
 --- /code ---

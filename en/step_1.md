@@ -20,7 +20,7 @@ line_number_start: 3
 line_highlights: 4
 ---
 function preload() {
-  cone = loadImage("cone1.png");
+  cone = loadImage("cone1.png"); // load the cone image
 }
 --- /code ---
 </div>
@@ -47,7 +47,7 @@ line_highlights: 19
 function draw() {
   background(26, 100, 255);
 
-  image(cone, mouseX, 750);
+  image(cone, mouseX, 750); // draw the cone at the mouse x position
 }
 --- /code ---
 </div>

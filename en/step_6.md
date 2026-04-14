@@ -33,7 +33,7 @@ line_highlights: 35-38
     scoopX = random(0, width);
   }
 
-  if (dist(scoopX, scoopY, mouseX, 600) < 80) {
+  if (dist(scoopX, scoopY, mouseX, 600) < 80) { // if close to the cone
     fallrate = 0;
     scoopX = random(0, width);
   }

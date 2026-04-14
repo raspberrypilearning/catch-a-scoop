@@ -12,7 +12,7 @@ line_numbers: true
 line_number_start: 37
 line_highlights: 37
 ---
-  if (dist(scoopX, scoopY, mouseX, 600 - (scoops * 60)) < 80) {
+  if (dist(scoopX, scoopY, mouseX, 600 - (scoops * 60)) < 80) { // move the catch point up with the stack
     fallrate = 0;
     scoopX = random(0, width);
     scoops++;

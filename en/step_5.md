@@ -20,9 +20,9 @@ line_highlights: 30-33
 
   image(scoop, scoopX, scoopY, 150, 150);
 
-  if (scoopY > height) {
-    fallrate = 0;
-    scoopX = random(0, width);
+  if (scoopY > height) { // if the scoop falls off the screen
+    fallrate = 0; // start again from the top
+    scoopX = random(0, width); // choose a new x position
   }
 }
 --- /code ---

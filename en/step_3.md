@@ -23,7 +23,7 @@ line_highlights: 16
 ---
   fill(255, 0, 255);
 
-  scoopX = random(0, width);
+  scoopX = random(0, width); // pick a random x position
 }
 --- /code ---
 

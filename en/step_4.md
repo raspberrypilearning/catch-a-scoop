@@ -14,7 +14,7 @@ line_number_start: 1
 line_highlights: 2
 ---
 let scoopX, scoopY, cone, scoop;
-let fallrate = 0;
+let fallrate = 0; // tracks how far the scoop has fallen
 --- /code ---
 
 </div>
@@ -41,8 +41,8 @@ line_highlights: 25-26, 28
 ---
   image(cone, mouseX, 750);
 
-  fallrate -= 5;
-  scoopY = 0 - fallrate;
+  fallrate -= 5; // change each frame to make the scoop move
+  scoopY = 0 - fallrate; // set the y position
 
   image(scoop, scoopX, scoopY, 150, 150);
 }

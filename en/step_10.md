@@ -17,8 +17,8 @@ line_highlights: 49-51
     image(scoop, mouseX, 600 - (i * 60), 150, 150);
   }
 
-  if (scoops >= maxScoops) {
-    text("Yum!", mouseX, 500);
+  if (scoops >= maxScoops) { // when the player has enough scoops
+    text("Yum!", mouseX, 500); // show a message on the screen
   }
 }
 --- /code ---

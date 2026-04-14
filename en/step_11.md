@@ -18,6 +18,6 @@ filename: scripts.js
 line_numbers: false
 line_number_start: 
 ---
-  text("Score: " + scoops, 150, 50);
+  text("Score: " + scoops, 150, 50); // show the score
 --- /code ---
 </div>

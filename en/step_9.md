@@ -16,7 +16,7 @@ line_highlights: 4
 let scoopX, scoopY, cone, scoop;
 let fallrate = 0;
 let scoops = 0;
-let maxScoops = 3;
+let maxScoops = 3; // stop after this many scoops
 --- /code ---
 </div>
 
@@ -35,7 +35,7 @@ line_highlights: 30-32
   fallrate -= 5;
   scoopY = 0 - fallrate;
 
-  if (scoops < maxScoops) {
+  if (scoops < maxScoops) { // only show falling scoops before the limit
     image(scoop, scoopX, scoopY, 150, 150);
   }
 

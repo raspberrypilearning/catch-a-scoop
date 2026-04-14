@@ -15,7 +15,7 @@ line_highlights: 3
 ---
 let scoopX, scoopY, cone, scoop;
 let fallrate = 0;
-let scoops = 0;
+let scoops = 0; // count how many scoops are caught
 --- /code ---
 </div>
 
@@ -50,11 +50,11 @@ line_highlights: 39, 42-44
   if (dist(scoopX, scoopY, mouseX, 600) < 80) {
     fallrate = 0;
     scoopX = random(0, width);
-    scoops++;
+    scoops++; // add 1 to the total
   }
 
-  for (let i = 0; i < scoops; i++) {
-    image(scoop, mouseX, 600 - (i * 60), 150, 150);
+  for (let i = 0; i < scoops; i++) { // draw one scoop for each catch
+    image(scoop, mouseX, 600 - (i * 60), 50, 50); // move each scoop higher up
   }
 }
 --- /code ---
