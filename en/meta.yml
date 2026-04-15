@@ -1,7 +1,7 @@
 title: Catch a thing
 hero_image: images/banner.png
 description: Catch falling ice-cream scoops and stack them on a cone.
-listed: false
+landing: true
 pdf: false
 steps:
   - title: Step 1
