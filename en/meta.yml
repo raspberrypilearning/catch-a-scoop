@@ -1,24 +1,25 @@
 title: Catch a thing
 hero_image: images/banner.png
 description: Catch falling ice-cream scoops and stack them on a cone.
+listed: true
 landing: true
 pdf: false
 steps:
-  - title: Step 1
+  - title: Choose a cone
+  - title: Add a scoop
     completion:
       - engaged
-  - title: Step 2
-  - title: Step 3
-  - title: Step 4
-  - title: Step 5
-  - title: Step 6
-  - title: Step 7
-  - title: Step 8
-  - title: Step 9
-  - title: Step 10
+  - title: Make the scoop random
+  - title: Make the scoops fall
+  - title: Start scoops again
+  - title: Catch the scoop
+  - title: Stack the scoops
+  - title: Move the catch point
+  - title: Limit the stack
     completion:
       - internal
-  - title: Step 11
-    challenge: true
+  - title: Show a final message
     completion:
       - external
+  - title: 'Challenge: add a score'
+    challenge: true
