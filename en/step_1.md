@@ -1,11 +1,11 @@
 ## Choose a cone
-Add an image for the cone that catches the ice-cream scoops
+Add an image for the cone that will catch the ice-cream scoops.
 
 ## Step 1
 Click on the **Image gallery** icon to see all the image files in this project. Choose the cone you want to use.
 
 ## Step 2
-Click on **Project file** tab and select script.js.
+Click on the **Project file** tab and select script.js.
 
 ## Step 3
 Change the file name in `load_image()` to the cone you want to use.
@@ -26,13 +26,13 @@ function preload() {
 </div>
 
 ## Step 4
-Add the image to the `draw()`
+Add the image to `draw()`.
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 - The screen is like a grid, and each image has an x and y position, for example, `image(img, x, y)` 
-- The code below that uses the `mouseX` value for the x position. 
+- The code below uses the `mouseX` value for the x position 
 </div>
 
 <div class="c-project-code">
@@ -53,7 +53,7 @@ function draw() {
 </div>
 
 ### Now run your code 
-You can see cone move with your curser. Edit the y position of the cone image to fit to your screen.
+You can see the cone move with your cursor. Edit the y position of the cone image to fit to your screen.
 
 <div class="c-project-output">
 

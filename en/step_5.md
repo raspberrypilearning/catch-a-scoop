@@ -1,8 +1,8 @@
-## Start scoops again
+## Start the scoop again
 When the scoop reaches the bottom of the screen, send it back to the top in a new random place.
 
 ## Step 1
-If `scoopY` is more than the height of the screen, set the `fallrate` to 0 so the scoop starts falling again from the top.
+If `scoopY` is more than the height of the screen, set the `fallrate` to 0 so that the scoop starts falling again from the top.
 
 Also, choose a new random x position for the next falling scoop.
 

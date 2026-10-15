@@ -1,12 +1,12 @@
-## Challenge: add a score
+## Challenge: Add a score
 Can you add a score that counts how many scoops you catch?
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-- Use `scoops` as your score.
-- Add the score code inside `draw()` so it updates while the game is running.
+- Use `scoops` as your score
+- Add the score code inside `draw()` so that it updates while the game is running
 
 </div>
 

@@ -47,7 +47,7 @@ line_highlights: 30-32
 </div>
 
 ### Now run your code
-The game should stop adding new scoops when the stack reaches your chosen limit. Experiment with different scoop stack limits.
+The game should stop dropping new scoops when the stack reaches your chosen limit. Experiment with different scoop stack limits.
 
 <div class="c-project-output">
 

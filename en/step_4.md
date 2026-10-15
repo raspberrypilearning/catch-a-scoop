@@ -1,5 +1,5 @@
 ## Make the scoops fall
-Move the scoops down the screen.
+Make the scoops move down the screen.
 
 ## Step 1
 Add a `fallrate` and set it to 0.
@@ -50,7 +50,7 @@ line_highlights: 25-26, 28
 </div>
 
 ### Now run your code
-The scoop should start at the top and move down the screen. Experiment with the `fallrate` to change the speed of the ice-cream.
+The scoop should start at the top and move down the screen. Experiment with the `fallrate` to change the speed of the ice cream.
 
 <div class="c-project-output">
 

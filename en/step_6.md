@@ -46,7 +46,7 @@ line_highlights: 35-38
 ### Now run your code
 When the falling scoop touches the cone, it should reset and a new scoop should start falling.
 
-Experiment with the numbers to catch the scoop in the right place.
+Experiment with the numbers so you catch the scoop in the right place.
 
 <div class="c-project-output">
 

@@ -1,5 +1,5 @@
 ## Show a final message
-When the player has caught all the scoops, display a message.
+When the player has caught all the scoops, have the game display a message.
 
 ## Step 1
 Check if the number of scoops is more than or equal to `maxScoops` and use `text()` to display a message such as `"Yum!"`.

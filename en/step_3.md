@@ -30,7 +30,7 @@ line_highlights: 16
 </div>
 
 ## Step 2
-Add `scoopX` to the x position of the `image()`, so that this is in a random position each time the code runs.
+Add `scoopX` to the x position of the `image()`, so that the image is in a random position each time the code runs.
 
 <div class="c-project-code">
 --- code ---
@@ -53,7 +53,7 @@ function draw() {
 </div>
 
 ### Now run your code
-Start and stop the code. The scoop of ice-cream should appear in a different position every time you start again.
+Start and stop the code. The scoop of ice cream should appear in a different position every time you start again.
 
 <div class="c-project-output">
 

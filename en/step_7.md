@@ -1,5 +1,5 @@
 ## Stack the scoops
-Count how many scoops have been caught, then draw that many scoops in a stack on top of the cone.
+Have your game count how many scoops have been caught, then draw that many scoops in a stack on top of the cone.
 
 ## Step 1
 Create `scoops` and set it to `0` near the top of your code.
