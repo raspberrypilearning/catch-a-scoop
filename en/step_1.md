@@ -5,7 +5,7 @@ Add an image for the cone that will catch the ice-cream scoops.
 Click on the **Image gallery** icon to see all the image files in this project. Choose the cone you want to use.
 
 ## Step 2
-Click on the **Project file** tab and select script.js.
+Click on the **Project file** tab and select `script.js`.
 
 ## Step 3
 Change the file name in `load_image()` to the cone you want to use.
