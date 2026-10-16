@@ -10,7 +10,7 @@ Also, choose a new random x position for the next falling scoop.
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 25
 line_highlights: 30-33

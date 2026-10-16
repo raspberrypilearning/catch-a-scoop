@@ -7,7 +7,7 @@ Choose the ice-cream `scoop` image you want and add it to the code.
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 3
 line_highlights: 5
@@ -21,13 +21,13 @@ function preload() {
 </div>
 
 ## Step 2
-Draw the scoop in `draw()` using your random x position.
+Draw the scoop in `draw()` at a fixed position near the top of the screen.
 
 <div class="c-project-code">
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 22
 line_highlights: 24

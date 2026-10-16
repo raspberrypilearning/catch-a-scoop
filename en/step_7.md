@@ -8,7 +8,7 @@ Create `scoops` and set it to `0` near the top of your code.
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 1
 line_highlights: 3
@@ -35,7 +35,7 @@ When a scoop touches the cone, add `scoops++` inside the `if` statement. This ad
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 29
 line_highlights: 39, 42-44

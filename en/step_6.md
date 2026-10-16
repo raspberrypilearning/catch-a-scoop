@@ -18,7 +18,7 @@ If the distance is less than 80, then change the `fallrate` and make a new rando
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 25
 line_highlights: 35-38

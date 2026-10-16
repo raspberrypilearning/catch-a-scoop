@@ -16,7 +16,7 @@ Set `scoopX` to a random number in `setup()`.
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 14
 line_highlights: 16
@@ -36,7 +36,7 @@ Add `scoopX` to the x position of the `image()`, so that the image is in a rando
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 19
 line_highlights: 23

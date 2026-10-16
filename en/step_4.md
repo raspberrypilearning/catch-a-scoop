@@ -8,7 +8,7 @@ Add a `fallrate` and set it to 0.
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 1
 line_highlights: 2
@@ -34,7 +34,7 @@ In `draw()`, change the `fallrate`, and set `scoopY` to change with this.
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 23
 line_highlights: 25-26, 28

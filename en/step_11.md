@@ -14,7 +14,7 @@ Can you add a score that counts how many scoops you catch?
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: false
 line_number_start: 
 ---

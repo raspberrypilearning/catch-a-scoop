@@ -8,7 +8,7 @@ Add `maxScoops`, a maximum number of ice-cream scoops to collect.
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 1
 line_highlights: 4
@@ -27,7 +27,7 @@ Use `if (scoops < maxScoops)` to only make new scoops appear if the number of st
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 27
 line_highlights: 30-32

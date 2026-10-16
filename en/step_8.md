@@ -7,7 +7,7 @@ Change the `dist()` check so that the catch point moves up as the stack gets tal
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 37
 line_highlights: 37

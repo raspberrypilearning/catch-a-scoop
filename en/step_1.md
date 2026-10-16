@@ -8,7 +8,7 @@ Click on the **Image gallery** icon to see all the image files in this project. 
 Click on the **Project file** tab and select `script.js`.
 
 ## Step 3
-Change the file name in `load_image()` to the cone you want to use.
+Change the file name in `loadImage()` to the file name of the cone image you want to use.
 
 <div class="c-project-code">
 --- code ---
@@ -53,7 +53,7 @@ function draw() {
 </div>
 
 ### Now run your code 
-You can see the cone move with your cursor. Edit the y position of the cone image to fit to your screen.
+You can see the cone move with your cursor. Edit the y position of the cone image so it appears where you want on your screen.
 
 <div class="c-project-output">
 

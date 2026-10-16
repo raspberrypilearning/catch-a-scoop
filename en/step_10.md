@@ -8,7 +8,7 @@ Check if the number of scoops is more than or equal to `maxScoops` and use `text
 --- code ---
 ---
 language: javascript
-filename: scripts.js
+filename: script.js
 line_numbers: true
 line_number_start: 45
 line_highlights: 49-51
