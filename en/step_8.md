@@ -1,6 +1,7 @@
 ## Move the catch point
 Make the scoop land on top of the stack so you don't always have to aim for the cone.
 
+## Step 1
 Change the `dist()` check so that the catch point moves up as the stack gets taller. 
 <div class="c-project-code">
 --- code ---

@@ -1,6 +1,7 @@
 ## Limit the stack
 Choose the maximum number of scoops your player can catch.
 
+## Step 1
 Add `maxScoops`, a maximum number of ice-cream scoops to collect.
 
 <div class="c-project-code">
@@ -19,6 +20,7 @@ let maxScoops = 3; // stop after this many scoops
 --- /code ---
 </div>
 
+## Step 2
 Use `if (scoops < maxScoops)` to only make new scoops appear if the number of stacked scoops is less than your maximum.
 
 <div class="c-project-code">

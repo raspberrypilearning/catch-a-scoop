@@ -1,6 +1,7 @@
 ## Stack the scoops
 Have your game count how many scoops have been caught, then draw that many scoops in a stack on top of the cone.
 
+## Step 1
 Create `scoops` and set it to `0` near the top of your code.
 
 <div class="c-project-code">
@@ -18,6 +19,7 @@ let scoops = 0; // count how many scoops are caught
 --- /code ---
 </div>
 
+## Step 2
 When a scoop touches the cone, add `scoops++` inside the `if` statement. This adds `1` to the number stored in `scoops`.
 
 <div class="c-project-callout c-project-callout--tip">
