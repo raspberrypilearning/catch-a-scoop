@@ -1,7 +1,6 @@
 ## Make the scoops fall
 Make the scoops move down the screen.
 
-## Step 1
 Add a `fallrate` and set it to 0.
 
 <div class="c-project-code">
@@ -27,7 +26,6 @@ The `draw()` function runs again and again, so if a value changes, the image wil
 
 </div>
 
-## Step 2
 In `draw()`, change the `fallrate`, and set `scoopY` to change with this. 
 
 <div class="c-project-code">

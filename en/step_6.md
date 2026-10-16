@@ -1,7 +1,6 @@
 ## Catch the scoop
 Check when the falling scoop touches the cone, then reset it so another scoop can fall.
 
-## Step 1
 Use `dist()` to measure the distance between the falling scoop and the top of the cone. 
 
 <div class="c-project-callout c-project-callout--tip">

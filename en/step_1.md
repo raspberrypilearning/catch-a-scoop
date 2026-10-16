@@ -1,13 +1,10 @@
 ## Choose a cone
 Add an image for the cone that will catch the ice-cream scoops.
 
-## Step 1
 Click on the **Image gallery** icon to see all the image files in this project. Choose the cone you want to use.
 
-## Step 2
 Click on the **Project file** tab and select `script.js`.
 
-## Step 3
 Change the file name in `loadImage()` to the file name of the cone image you want to use.
 
 <div class="c-project-code">
@@ -25,7 +22,6 @@ function preload() {
 --- /code ---
 </div>
 
-## Step 4
 Add the image to `draw()`.
 
 <div class="c-project-callout c-project-callout--tip">

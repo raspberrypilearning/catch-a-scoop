@@ -1,7 +1,6 @@
 ## Make the scoop random
 Use `random()` to choose where the scoop appears across the screen.
 
-## Step 1
 Set `scoopX` to a random number in `setup()`.
 
 <div class="c-project-callout c-project-callout--tip">
@@ -29,7 +28,6 @@ line_highlights: 16
 
 </div>
 
-## Step 2
 Add `scoopX` to the x position of the `image()`, so that the image is in a random position each time the code runs.
 
 <div class="c-project-code">

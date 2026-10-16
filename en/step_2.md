@@ -1,6 +1,5 @@
 ## Add a scoop
 
-## Step 1
 Choose the ice-cream `scoop` image you want and add it to the code.
 
 <div class="c-project-code">
@@ -20,7 +19,6 @@ function preload() {
 
 </div>
 
-## Step 2
 Draw the scoop in `draw()` at a fixed position near the top of the screen.
 
 <div class="c-project-code">
